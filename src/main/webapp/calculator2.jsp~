@@ -16,11 +16,11 @@
 <form action="resultCalculator" method="post">
     <div>
         <label>So thu nhat:</label>
-        <input type="number" name="number1" required>
+        <input type="number" name="number1" min="0" required>
     </div>
     <div>
         <label>So thu hai:</label>
-        <input type="number" name="number2" required>
+        <input type="number" name="number2" min="0" required>
     </div>
     <div>
         <label>Chon phep toan:</label>
